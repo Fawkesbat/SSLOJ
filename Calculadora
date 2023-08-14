@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Armadura de Cavaleiros</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <style>
+   *{
+     margin: 0;
+     padding: 0;
+    }
+   .fundo{
+          background-image: linear-gradient(45deg,black,crimson,black);
+          height: 100;
+          color: white;
+          padding: 15px;
+         }
+
+   .fundo2{
+          background-image: linear-gradient(45deg,black,Goldenrod,black);
+          height: 100;
+          color: white;
+          padding: 15px;
+         }
+
+   .fundo3{
+          background-image: linear-gradient(45deg,black,DeepPink,black);
+          <font face="Arial"> Arial </font>
+          height: 100;
+          color: white;
+          padding: 15px;
+         }
+   </style>
+ </head>
+ <body>
+   <div class="fundo">
+     <h2>Calculadora de Custo de Sangue</h2> <br/>
+   LvL atual da armadura: <input id="nota1" type="number"> <br/>
+   <br/>
+   <button onclick="media()">Buscar</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     var nota1 = parseFloat(document.getElementById("nota1").value);
+ 
+     var media = nota1 ;
+
+     if(media >= 0)
+      if(media==40)
+       alert("Já está no máximo. Quer mais o que seu p2w safado?");
+       else if(media==0)
+        alert("Está faltando:\n- 200 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==1)
+        alert("Está faltando:\n- 190 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==2)
+        alert("Está faltando:\n- 180 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==3)
+        alert("Está faltando:\n- 165 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==4)
+        alert("Está faltando:\n- 150 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==5)
+        alert("Está faltando:\n- 130 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==6)
+        alert("Está faltando:\n- 110 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==7)
+        alert("Está faltando:\n- 85 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==8)
+        alert("Está faltando:\n- 60 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==9)
+        alert("Está faltando:\n- 30 sangue de prata;\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==10)
+        alert("Está faltando:\n- 250 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==11)
+        alert("Está faltando:\n- 240 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==12)
+        alert("Está faltando:\n- 230 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==13)
+        alert("Está faltando:\n- 215 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==14)
+        alert("Está faltando:\n- 195 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==15)
+        alert("Está faltando:\n- 170 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==16)
+        alert("Está faltando:\n- 140 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==17)
+        alert("Está faltando:\n- 110 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==18)
+        alert("Está faltando:\n- 75 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==19)
+        alert("Está faltando:\n- 40 sangue de ouro;\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==20)
+        alert("Está faltando:\n- 320 sangue de deus p/ lvl30; ou\n- 1270 sangue de deus p/ lvl40");
+       else if(media==21)
+        alert("Está faltando:\n- 310 sangue de deus p/ lvl30; ou\n- 1260 sangue de deus p/ lvl40");
+       else if(media==22)
+        alert("Está faltando:\n- 295 sangue de deus p/ lvl30; ou\n- 1245 sangue de deus p/ lvl40");
+       else if(media==23)
+        alert("Está faltando:\n- 275 sangue de deus p/ lvl30; ou\n- 1225 sangue de deus p/ lvl40");
+       else if(media==24)
+        alert("Está faltando:\n- 250 sangue de deus p/ lvl30; ou\n- 1200 sangue de deus p/ lvl40");
+       else if(media==25)
+        alert("Está faltando:\n- 220 sangue de deus p/ lvl30; ou\n- 1170 sangue de deus p/ lvl40");
+       else if(media==26)
+        alert("Está faltando:\n- 185 sangue de deus p/ lvl30; ou\n- 1135 sangue de deus p/ lvl40");
+       else if(media==27)
+        alert("Está faltando:\n- 145 sangue de deus p/ lvl30; ou\n- 1095 sangue de deus p/ lvl40");
+       else if(media==28)
+        alert("Está faltando:\n- 100 sangue de deus p/ lvl30; ou\n- 1050 sangue de deus p/ lvl40");
+       else if(media==29)
+        alert("Está faltando:\n- 50 sangue de deus p/ lvl30; ou\n- 1000 sangue de deus p/ lvl40");
+       else if(media==30)
+        alert("Está faltando:\n- 950 sangue de deus p/ lvl40");
+       else if(media==31)
+        alert("Está faltando:\n- 900 sangue de deus p/ lvl40");
+       else if(media==32)
+        alert("Está faltando:\n- 850 sangue de deus p/ lvl40");
+       else if(media==33)
+        alert("Está faltando:\n- 790 sangue de deus p/ lvl40");
+       else if(media==34)
+        alert("Está faltando:\n- 730 sangue de deus p/ lvl40");
+       else if(media==35)
+        alert("Está faltando:\n- 660 sangue de deus p/ lvl40");
+       else if(media==36)
+        alert("Está faltando:\n- 580 sangue de deus p/ lvl40");
+       else if(media==37)
+        alert("Está faltando:\n- 480 sangue de deus p/ lvl40");
+       else if(media==38)
+        alert("Está faltando:\n- 360 sangue de deus p/ lvl40");
+       else if(media==39)
+        alert("Está faltando:\n- 2000 sangue de deus p/ lvl40");
+      else
+       alert("Fora dos parâmetros.")
+     else
+      alert("Informe o LvL da armadura!")
+
+    }
+   </script>
+   </div>
+
+
+<! – CÓDIGO PARA TRABALHAR COM A INFORMAÇÃO DAS FLECHAS –>
+   <div class="fundo2">          
+     <h2>Banner Flechas x Cópias Garantidas (Platina = 18 cópias/1080 flechas)</h2> <br/>
+   Quantidade de flechas: <input id="nota2" type="number"> <br/>
+   <i>(Não está sendo considerada cópias que o jogo da em eventos)</i> <br/>
+   <br/>
+   <button onclick="media2()">Buscar</button>
+   <br/>
+   <script type="text/javascript">
+
+    function media2(){
+     var nota2 = parseFloat(document.getElementById("nota2").value);
+ 
+     var media2 = nota2 ;
+
+     if(media2 >= 0)
+      if(media2==0)
+        alert("Está de sacanagem? Fez o que com suas flechas abençoado?");
+       else if(media2>=1 && media2<=59)
+        alert("Com isso você não pega nada no garantido, porém pode pegar "+nota2 +" cópias. #Confia. \nEstá faltando "+(60-nota2) +" flecha(s) para pegar sua primeira cópia garantida.");
+       else if(media2>=60 && media2<=119)
+        alert("Parabéns! \nCom isso você pega 1 cópia no garantido. \nAgora já pode completar a sua coleção de cavaleiros. \nSó Faltam 17 cópias para platinar.");
+       else if(media2>=120 && media2<=179)
+        alert("Você consegue pegar 2 cópias no garantido, e precisa de mais "+(180-nota2) +" flechas para pegar outra cópia. \n02 cópias = até 7 estrelas. \nFaltam 16 cópias para platinar.");
+       else if(media2>=180 && media2<=239)
+        alert("Você consegue pegar 3 cópias no garantido, e precisa de mais "+(240-nota2) +" flechas para pegar outra cópia. \n03 cópias = até 7 estrelas. \nFaltam 15 cópias para platinar.");
+       else if(media2>=240 && media2<=299)
+        alert("Você consegue pegar 4 cópias no garantido, e precisa de mais "+(300-nota2) +" flechas para pegar outra cópia. \n04 cópias = até 10 estrelas. \nFaltam 14 cópias para platinar.");
+       else if(media2>=300 && media2<=359)
+        alert("Você consegue pegar 5 cópias no garantido, e precisa de mais "+(360-nota2) +" flechas para pegar outra cópia. \n05 cópias = até 10 estrelas. \nFaltam 13 cópias para platinar.");
+       else if(media2>=360 && media2<=419)
+        alert("Você consegue pegar 6 cópias no garantido, e precisa de mais "+(420-nota2) +" flechas para pegar outra cópia. \n06 cópias = até 10 estrelas. \nFaltam 12 cópias para platinar.");
+       else if(media2>=420 && media2<=479)
+        alert("Você consegue pegar 7 cópias no garantido, e precisa de mais "+(480-nota2) +" flechas para pegar outra cópia. \n07 cópias = até 10 estrelas. \nFaltam 11 cópias para platinar.");
+       else if(media2>=480 && media2<=539)
+        alert("Você consegue pegar 8 cópias no garantido, e precisa de mais "+(540-nota2) +" flechas para pegar outra cópia. \n08 cópias = até 11 estrelas. (1*red) \nFaltam 10 cópias para platinar.");
+       else if(media2>=540 && media2<=599)
+        alert("Você consegue pegar 9 cópias no garantido, e precisa de mais "+(600-nota2) +" flechas para pegar outra cópia. \n09 cópias = até 11 estrelas. (1*red) \nFaltam 9 cópias para platinar.");
+       else if(media2>=600 && media2<=659)
+        alert("Você consegue pegar 10 cópias no garantido, e precisa de mais "+(660-nota2) +" flechas para pegar outra cópia. \n10 cópias = até 12 estrelas. (2*red) \nFaltam 8 cópias para platinar.");
+       else if(media2>=660 && media2<=719)
+        alert("Você consegue pegar 11 cópias no garantido, e precisa de mais "+(720-nota2) +" flechas para pegar outra cópia. \n11 cópias = até 12 estrelas. (2*red) \nFaltam 7 cópias para platinar.");
+       else if(media2>=720 && media2<=779)
+        alert("Você consegue pegar 12 cópias no garantido, e precisa de mais "+(780-nota2) +" flechas para pegar outra cópia. \n12 cópias = até 13 estrelas. (3*red) \nFaltam 6 cópias para platinar.");
+       else if(media2>=780 && media2<=839)
+        alert("Você consegue pegar 13 cópias no garantido, e precisa de mais "+(840-nota2) +" flechas para pegar outra cópia. \n13 cópias = até 13 estrelas. (3*red) \nFaltam 5 cópias para platinar.");
+       else if(media2>=840 && media2<=899)
+        alert("Você consegue pegar 14 cópias no garantido, e precisa de mais "+(900-nota2) +" flechas para pegar outra cópia. \n14 cópias = até 14 estrelas. (4*red) \nFaltam 4 cópias para platinar.");
+       else if(media2>=900 && media2<=959)
+        alert("Você consegue pegar 15 cópias no garantido, e precisa de mais "+(960-nota2) +" flechas para pegar outra cópia. \n15 cópias = até 14 estrelas. (4*red) \nFaltam 3 cópias para platinar.");
+       else if(media2>=960 && media2<=1019)
+        alert("Você consegue pegar 16 cópias no garantido, e precisa de mais "+(1020-nota2) +" flechas para pegar outra cópia. \n16 cópias = até 15 estrelas. (5*red) \nFaltam 2 cópias para platinar.");
+       else if(media2>=1020 && media2<=1079)
+        alert("Você consegue pegar 17 cópias no garantido, e precisa de mais "+(1080-nota2) +" flechas para pegar outra cópia. \n17 cópias = até 15 estrelas. (5*red) \nFaltam 1 cópias para platinar.");
+       else if(media2==1080)
+        alert("Você consegue pegar 18 cópias no garantido. \nParabéns! Se tiver food já pode platinar seu cavaleiro.");
+       else if(media2>=1081)
+        alert("Dá para platinar e ainda vai sobrar "+(nota2-1080) +" flechas.");
+      else
+       alert("Fora dos parâmetros.")
+     else
+      alert("Informe uma quantidade real.")
+
+    }
+   </script>
+   </div>
+
+
+
+<! – CÓDIGO PARA TRABALHAR COM A INFORMAÇÃO DAS PÉTALAS –>
+   <div class="fundo3">
+     <h2>Banner Pétalas x Cópias Garantidas (Platina = 22 cópias/1320 pétalas)</h2> <br/>
+   Quantidade de pétalas: <input id="nota3" type="number"> <br/>
+   <i>(Não está sendo considerada cópias que o jogo da em eventos)</i> <br/>
+   <br/>
+   <button onclick="media3()">Buscar</button>
+   <br/><br/>
+   <h5>by VᴮᴿMaverick</h5>
+
+   <script type="text/javascript">
+
+    function media3(){
+     var nota3 = parseFloat(document.getElementById("nota3").value);
+ 
+     var media3 = nota3 ;
+
+     if(media3 >= 0)
+      if(media3==40)
+       alert("Já está no máximo. Quer mais o que seu p2w safado?");
+       else if(media3==0)
+        alert("Está de sacanagem? Fez o que com suas pétalas abençoado?");
+       else if(media3>=1 && media3<=59)
+        alert("Com isso você não pega nada no garantido, porém pode pegar "+nota3 +" cópias. #Confia. \nEstá faltando "+(60-nota3) +" pétala(s) para pegar sua primeira cópia garantida.");
+       else if(media3>=60 && media3<=119)
+        alert("Parabéns! \nCom isso você pega 1 cópia no garantido. \nAgora já pode completar a sua coleção de cavaleiros. \nSó Faltam 21 cópias para platinar.");
+       else if(media3>=120 && media3<=179)
+        alert("Você consegue pegar 2 cópias no garantido, e precisa de mais "+(180-nota3) +" pétalas para pegar outra cópia. \n02 cópias = 6 estrelas. \nFaltam 20 cópias para platinar.");
+       else if(media3>=180 && media3<=239)
+        alert("Você consegue pegar 3 cópias no garantido, e precisa de mais "+(240-nota3) +" pétalas para pegar outra cópia. \n03 cópias = 6 estrelas. \nFaltam 19 cópias para platinar.");
+       else if(media3>=240 && media3<=299)
+        alert("Você consegue pegar 4 cópias no garantido, e precisa de mais "+(300-nota3) +" pétalas para pegar outra cópia. \n04 cópias = 7 estrelas. \nFaltam 18 cópias para platinar.");
+       else if(media3>=300 && media3<=359)
+        alert("Você consegue pegar 5 cópias no garantido, e precisa de mais "+(360-nota3) +" pétalas para pegar outra cópia. \n05 cópias = 7 estrelas. \nFaltam 17 cópias para platinar.");
+       else if(media3>=360 && media3<=419)
+        alert("Você consegue pegar 6 cópias no garantido, e precisa de mais "+(420-nota3) +" pétalas para pegar outra cópia. \n06 cópias = 8 estrelas. \nFaltam 16 cópias para platinar.");
+       else if(media3>=420 && media3<=479)
+        alert("Você consegue pegar 7 cópias no garantido, e precisa de mais "+(480-nota3) +" pétalas para pegar outra cópia. \n07 cópias = 8 estrelas. \nFaltam 15 cópias para platinar.");
+       else if(media3>=480 && media3<=539)
+        alert("Você consegue pegar 8 cópias no garantido, e precisa de mais "+(540-nota3) +" pétalas para pegar outra cópia. \n08 cópias = 9 estrelas. \nFaltam 14 cópias para platinar.");
+       else if(media3>=540 && media3<=599)
+        alert("Você consegue pegar 9 cópias no garantido, e precisa de mais "+(600-nota3) +" pétalas para pegar outra cópia. \n09 cópias = 9 estrelas. \nFaltam 13 cópias para platinar.");
+       else if(media3>=600 && media3<=659)
+        alert("Você consegue pegar 10 cópias no garantido, e precisa de mais "+(660-nota3) +" pétalas para pegar outra cópia. \n10 cópias = 10 estrelas. \nFaltam 12 cópias para platinar.");
+       else if(media3>=660 && media3<=719)
+        alert("Você consegue pegar 11 cópias no garantido, e precisa de mais "+(720-nota3) +" pétalas para pegar outra cópia. \n11 cópias = 10 estrelas. \nFaltam 11 cópias para platinar.");
+       else if(media3>=720 && media3<=779)
+        alert("Você consegue pegar 12 cópias no garantido, e precisa de mais "+(780-nota3) +" pétalas para pegar outra cópia. \n12 cópias = 11 estrelas (1*red). \nFaltam 10 cópias para platinar.");
+       else if(media3>=780 && media3<=839)
+        alert("Você consegue pegar 13 cópias no garantido, e precisa de mais "+(840-nota3) +" pétalas para pegar outra cópia. \n13 cópias = 11 estrelas (1*red). \nFaltam 9 cópias para platinar.");
+       else if(media3>=840 && media3<=899)
+        alert("Você consegue pegar 14 cópias no garantido, e precisa de mais "+(900-nota3) +" pétalas para pegar outra cópia. \n14 cópias = 12 estrelas (2*red). \nFaltam 8 cópias para platinar.");
+       else if(media3>=900 && media3<=959)
+        alert("Você consegue pegar 15 cópias no garantido, e precisa de mais "+(960-nota3) +" pétalas para pegar outra cópia. \n15 cópias = 12 estrelas (2*red). \nFaltam 7 cópias para platinar.");
+       else if(media3>=960 && media3<=1019)
+        alert("Você consegue pegar 16 cópias no garantido, e precisa de mais "+(1020-nota3) +" pétalas para pegar outra cópia. \n16 cópias = 13 estrelas (3*red). \nFaltam 6 cópias para platinar.");
+       else if(media3>=1020 && media3<=1079)
+        alert("Você consegue pegar 17 cópias no garantido, e precisa de mais "+(1080-nota3) +" pétalas para pegar outra cópia. \n17 cópias = 13 estrelas (3*red). \nFaltam 5 cópias para platinar.");
+       else if(media3>=1080 && media3<=1139)
+        alert("Você consegue pegar 18 cópias no garantido, e precisa de mais "+(1080-nota3) +" pétalas para pegar outra cópia. \n18 cópias = 14 estrelas (4*red). \nFaltam 4 cópias para platinar.");
+       else if(media3>=1140 && media3<=1199)
+        alert("Você consegue pegar 19 cópias no garantido, e precisa de mais "+(1080-nota3) +" pétalas para pegar outra cópia. \n19 cópias = 14 estrelas (4*red). \nFaltam 3 cópias para platinar.");
+       else if(media3>=1200 && media3<=1259)
+        alert("Você consegue pegar 20 cópias no garantido, e precisa de mais "+(1080-nota3) +" pétalas para pegar outra cópia. \n20 cópias = 15 estrelas (5*red). \nFaltam 2 cópias para platinar.");
+       else if(media3>=1260 && media3<=1319)
+        alert("Você consegue pegar 21 cópias no garantido, e precisa de mais "+(1080-nota3) +" pétalas para pegar outra cópia. \n21 cópias = 15 estrelas (5*red). \nFaltam 1 cópias para platinar.");
+       else if(media3>=1320)
+        alert("Dá para platinar e ainda vai sobrar "+(nota3-1320) +" pétalas.");
+      else
+       alert("Fora dos parâmetros.")
+     else
+      alert("Informe uma quantidade real.")
+
+    }
+   </script>
+   </div>
+
+
+ </body>
+</html>
